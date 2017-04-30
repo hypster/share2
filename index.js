@@ -1,7 +1,8 @@
 var StaticServer = require('static-server');
 var port = process.env.PORT || 3000
 var server = new StaticServer({
-  rootPath: 'dist',            // required, the root of the server file tree
+  rootPath: 'dist',
+  host: '0.0.0.0',            // required, the root of the server file tree
   port: port             // optional, defaults to a random port
 });
 
