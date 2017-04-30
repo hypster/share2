@@ -3,7 +3,7 @@
     <header class="section-header">
         <router-link  tag='h1' :to='{name: "open document"}'><a href='' @click.prevent>文档开放</a></router-link>
         <router-link tag='h1' :to='{name: "app market"}'><a href='' @click.prevent>应用市场</a></router-link>
-        <a href='' class="more">更多</a>
+        <a href='' @click.prevent class="more">更多</a>
     </header>
     <router-view></router-view>
 </div>

@@ -5,8 +5,8 @@
                 <p class="report-info">
                     <label class="icon-bookmark">发布时间</label><label class="category">12小时前</label>
                 </p>
-                <a href="">下载Word格式</a>
-                <a href="">下载PDF格式</a>
+                <a @click.prevent href="">下载Word格式</a>
+                <a @click.prevent href="">下载PDF格式</a>
             </div>
         </div>
 </template>

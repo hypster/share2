@@ -1,10 +1,8 @@
 <template>
 <div class='sidebar'>
     <ul>
-        <li><a @click.prevent href=''>联盟介绍</a></li>
-        <li><a @click.prevent href=''>联盟服务</a></li>
-        <li><a @click.prevent href=''>联盟活动</a></li>
-        <li><a @click.prevent href=''>联盟会员</a></li>
+        <li><a @click.prevent href=''>管理中心</a></li>
+        <li><a @click.prevent href=''>技术中心</a></li>
     </ul>
 </div>
 </template>
@@ -27,6 +25,8 @@ export default {
   li
     height: $lineheight
     line-height: $lineheight
-    padding-left: 4em
+    text-align: center
+    padding-left: 0
+
 
 </style>

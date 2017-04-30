@@ -14,7 +14,7 @@
             </li>
         </ul>
     </div>
-    <a href="" class="button">浏览更多</a>
+    <a href="" @click.prevent class="button">浏览更多</a>
 </div>
 </template>
 
