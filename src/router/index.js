@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import mainPage from '@/main-page'
-import appMarket from '@/components/app-market'
-import openDocument from '@/components/open-document'
+import unionPage from '@/union-page'
+import appMarket from '@/components/main-page-components/app-market'
+import openDocument from '@/components/main-page-components/open-document'
 Vue.use(Router)
 
 export default new Router({
@@ -23,11 +24,16 @@ export default new Router({
           component: appMarket
         },
         {
-          path: '*',
+          path: '',
           name: 'open document',
           component: openDocument
         }
       ]
+    },
+    {
+      path: '/union',
+      name: 'union page',
+      component: unionPage
     }
   ]
 })

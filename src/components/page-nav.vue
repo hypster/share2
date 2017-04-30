@@ -6,7 +6,7 @@
     <li>
       <a href="">联盟</a>
       <ul class="sub">
-        <li><a href="">联盟介绍</a></li>
+        <router-link :to="{name: 'union page'}" tag='li'><a @click.prevent href="">联盟介绍</a></router-link>
         <li><a href="">联盟服务</a></li>
         <li><a href="">联盟活动</a></li>
         <li><a href="">联盟会员</a></li>

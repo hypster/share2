@@ -8,9 +8,9 @@
 </div>
 </template>
 <script>
-import latestNews from '@/components/latest-news'
-import importantNews from '@/components/important-news'
-import openSource from '@/components/open-source'
+import latestNews from '@/components/main-page-components/latest-news'
+import importantNews from '@/components/main-page-components/important-news'
+import openSource from '@/components/main-page-components/open-source'
 export default {
     data () {
         return {}
@@ -22,3 +22,8 @@ export default {
     }
 }
 </script>
+<style lang='stylus'>
+.section-wrapper
+  height: 613px
+  margin-bottom: 20px
+</style>
