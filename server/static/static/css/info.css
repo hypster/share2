@@ -1,0 +1,110 @@
+.info-page #header-menu {
+  margin-left: 6px;
+}
+.info-page #header-menu a {
+  color: #808080;
+}
+.info-page #header-menu i#header-menu-icon {
+  background: url("../img/auth.png") no-repeat;
+  vertical-align: -10px;
+  margin-right: 2px;
+}
+.info-page nav .inner {
+  display: flex;
+}
+.info-page nav .inner .header-menu-item {
+  margin-left: 4px;
+}
+.info-page nav .inner i {
+  display: inline-block;
+  vertical-align: -4px;
+  width: 16px;
+  background: url("../img/apply.png") no-repeat;
+}
+.info-page nav .inner ul.primary-menu {
+  float: left;
+  position: relative;
+}
+.info-page nav .inner ul:hover > ul {
+  opacity: 1;
+  height: auto;
+}
+.info-page nav .inner ul:hover > ul > li {
+  height: auto;
+}
+.info-page nav .inner ul > ul {
+  display: flex;
+  float: left;
+  width: 200px;
+  flex-direction: column;
+  position: absolute;
+  height: 0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #edf1f7;
+  transition: all ease 0.3s;
+}
+.info-page nav .inner ul > ul a {
+  box-sizing: border-box;
+  color: #000;
+  display: inline-block;
+  padding: 0 12px;
+  width: 100%;
+}
+.info-page nav .inner ul > ul a:hover {
+  background-color: #edf1f7;
+}
+.info-page nav .inner ul > ul > li {
+  display: inline-block;
+  float: left;
+  height: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+.info-page .main-content {
+  display: block;
+  width: 876px;
+  margin: 0 auto;
+}
+.info-page .row {
+  display: flex;
+}
+.info-page .row table {
+  box-sizing: border-box;
+  text-align: left;
+  border: 1px solid #edf1f7;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.info-page .row table:last-child {
+  margin-right: 0;
+}
+.info-page .row table caption {
+  height: 27px;
+  line-height: 27px;
+  color: #fff;
+  text-align: left;
+  background-color: #5cadff;
+  padding-left: 14px;
+}
+.info-page .row table.loginInfo {
+  width: 577px;
+}
+.info-page .row table.districtInfo {
+  width: 292px;
+}
+.info-page .row table.basicInfo {
+  width: 396px;
+}
+.info-page .row table.politics {
+  width: 475px;
+}
+.info-page .row table.certificate {
+  width: 876px;
+}
+.info-page .row table.work-info {
+  width: 876px;
+}
