@@ -17,4 +17,6 @@ export default {
 <style lang='stylus'>
   .footer
     margin-top: 0
+  p
+    margin-bottom 1em
 </style>

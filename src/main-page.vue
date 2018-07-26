@@ -24,6 +24,5 @@ export default {
 </script>
 <style lang='stylus'>
 .section-wrapper
-  height: 613px
   margin-bottom: 20px
 </style>

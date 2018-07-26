@@ -22,11 +22,17 @@ export default {
 <style lang='stylus' scoped>
 .video-page
   background-color: #f0f2f5
-  padding-top: 20px
+  // padding-top: 20px
+  padding 20px
+  display flex
   .wrapper
     display: flex
-    width: 800px
+    width: 100%
     margin: 0 auto
     justify-content: space-between
-    background-color: #fff
+    background-color: #f0f2f5
+  .sidebar
+    flex 1
+  .right-column
+    flex 2.15
 </style>

@@ -1,6 +1,8 @@
 <template>
 <div class='right-column'>
-<p>上海教育认证联盟是xxxxxxxxxxxxx</p>
+  <transition name='fade' mode='out-in'>
+    <router-view></router-view>
+  </transition>
 </div>
 </template>
 <script>

@@ -1,8 +1,8 @@
 <template>
 <div class='sidebar'>
     <ul>
-        <li><a @click.prevent href=''>管理中心</a></li>
-        <li><a @click.prevent href=''>技术中心</a></li>
+        <li><router-link :to='{name: "admin center"}' @click.prevent href=''>管理中心</router-link></li>
+        <li><router-link :to='{name: "tech center"}' @click.prevent href=''>技术中心</router-link></li>
     </ul>
 </div>
 </template>

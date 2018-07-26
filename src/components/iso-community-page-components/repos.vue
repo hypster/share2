@@ -1,8 +1,8 @@
 <template>
 <div class="pub-event">
-  <header class="section-header">
+  <!-- <header class="section-header">
       <h1>开源项目社区</h1>
-  </header>
+  </header> -->
   <ul class="tech_stack">
     <li :class="{active: currentTechStack === q}" @click="onClickStackItem(q, i)" v-for='(q,i) in queryTerms' :key='q'>{{q}}</li>
   </ul>
@@ -23,7 +23,6 @@
         </label>
     </li>
   </ul>
-    <router-link href="" :to="{name: 'repos'}" @click.prevent class="button">浏览更多</router-link>
 </div>
 </template>
 
@@ -103,15 +102,13 @@ export default {
     },
     onClickStackItem(q, i) {
       this.currentTechStack = q
-      this.currentDisplayData = this.data[i].items.slice(0, 12)
+      this.currentDisplayData = this.data[i].items
     }
   },
 }
 </script>
 
 <style scoped lang='stylus'>
-.pub-event
-  margin-left 3em
 .tech_stack
   display flex
   line-height 1.5
@@ -126,14 +123,15 @@ export default {
     &:last
       margin-right 0
 .repo_list
-  height 500px
+  // height 500px
   overflow hidden
   display flex
   flex-direction column
   justify-content flex-start
   flex-wrap wrap
   li
-    width 50%
+    width 100%
+    max-width 100%
     a
       width 100%
       display inline-block

@@ -1,10 +1,10 @@
 <template>
 <div class='sidebar'>
     <ul>
-        <li><a @click.prevent href=''>联盟介绍</a></li>
-        <li><a @click.prevent href=''>联盟服务</a></li>
-        <li><a @click.prevent href=''>联盟活动</a></li>
-        <li><a @click.prevent href=''>联盟会员</a></li>
+        <li><router-link :to='{name: "introduction"}' @click.prevent href=''>联盟介绍</router-link></li>
+        <li><router-link :to='{name: "service"}' @click.prevent href=''>联盟服务</router-link></li>
+        <li><router-link :to='{name: "activity"}' @click.prevent href=''>联盟活动</router-link></li>
+        <li><router-link :to='{name: "members"}' @click.prevent href=''>联盟会员</router-link></li>
     </ul>
 </div>
 </template>

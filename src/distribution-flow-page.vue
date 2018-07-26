@@ -1,8 +1,12 @@
 <template>
 <div class='distribution-flow-page'>
 <div class='wrapper'>
-  <h2>标准发布流程</h2>
-  <img src='./components/distribution-flow-page-components/flow-chart.jpg'>
+  <h1>标准发布流程</h1>
+  <img src='./components/distribution-flow-page-components/14.jpg'>
+  <img src='./components/distribution-flow-page-components/15.jpg'>
+  <img src='./components/distribution-flow-page-components/16.jpg'>
+  <img src='./components/distribution-flow-page-components/17.jpg'>
+  <img src='./components/distribution-flow-page-components/18.jpg'>
 </div>
 </div>
 </template>
@@ -24,12 +28,14 @@ export default {
     box-sizing: border-box
     text-align: center
     background-color: #fff
-    padding: 20px
-    h2
-      font-size: (33/2)px
+    padding: 20px 40px
+    h1
+      font-size: 30px
+      font-weight 700
       color: #666
-      padding-bottom: 20px
+      padding-top 20px
+      padding-bottom: 40px
     img
-      width: (1147/2)px
-      height: (326/2)px
+      width: 100%
+      margin-bottom 2em
 </style>

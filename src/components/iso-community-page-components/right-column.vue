@@ -1,16 +1,8 @@
 <template>
 <div class='right-column pub-event'>
-    <div>
-        <ul>
-            <li class="project icon-play3" v-for='i in 5'>
-                <h2 class="project-title">.gitignore</h2>
-                <p>a collection of usefule gitignore templates</p>
-                <label for="" class="tag">git</label>
-                <label for="" class="tag">linguistic</label>
-                <label for="" class="tag">linguistic</label>
-            </li>
-        </ul>
-    </div>
+  <transition name='fade' mode='out-in'>
+    <router-view></router-view>
+  </transition>
 </div>
 </template>
 <script>

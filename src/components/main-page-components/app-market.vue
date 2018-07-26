@@ -20,9 +20,10 @@
 .app-market
   .app
     display: flex
-    justify-content: space-around
+    justify-content: space-between
     align-items: center
     margin-bottom: 20px
+    margin-right 3em
     img
       width: 50px
       height: 50px

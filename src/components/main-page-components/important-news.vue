@@ -3,9 +3,11 @@
     <header class="section-header">
         <router-link  tag='h1' :to='{name: "open document"}'><a href='' @click.prevent>文档开放</a></router-link>
         <router-link tag='h1' :to='{name: "app market"}'><a href='' @click.prevent>应用市场</a></router-link>
-        <a href='' @click.prevent class="more">更多</a>
+        <router-link href='' @click.prevent class="more" :to="{name: 'document distribution page'}">更多</router-link>
     </header>
-    <router-view></router-view>
+    <transition name='fade' mode='out-in'>
+      <router-view></router-view>
+    </transition>
 </div>
 </template>
 
