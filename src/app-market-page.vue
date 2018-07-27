@@ -1,19 +1,24 @@
 <template>
 <div class='app-market-page'>
     <div class='wrapper'>
-        <img src='./components/app-market-page-components/zhihuidao.jpg'></img>
+      <v-market></v-market>
+        <!-- <img src='./components/app-market-page-components/zhihuidao.jpg'></img>
         <img src='./components/app-market-page-components/zhongwenzaixian.jpg'></img>
         <img src='./components/app-market-page-components/haoxuejiaoyu.jpg'></img>
-        <img src='./components/app-market-page-components/zhihuishu.jpg'></img>
+        <img src='./components/app-market-page-components/zhihuishu.jpg'></img> -->
     </div>
 </div>
 </template>
 <script>
+import vMarket from '@/components/main-page-components/app-market'
 export default {
     data () {
         return {
 
         }
+    },
+    components: {
+      vMarket
     }
 }
 </script>
