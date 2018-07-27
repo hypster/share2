@@ -1,0 +1,23 @@
+export default [
+  ['东华大学',	'http://www.dhu.edu.cn/'],
+['复旦大学',	'http://www.fudan.edu.cn/'],
+['华东理工大学',	'https://www.ecust.edu.cn/'],
+['华东师范大学',	'http://www.ecnu.edu.cn/'],
+['华东政法大学',	'http://www.ecupl.edu.cn/'],
+['上海财经大学',	'http://www.shufe.edu.cn/'],
+['上海大学',	'http://www.shu.edu.cn/'],
+['上海第二工业大学',	'http://www.sspu.edu.cn/'],
+['上海对外经贸大学',	'http://www.suibe.edu.cn/'],
+['上海工程技术大学',	'http://www.sues.edu.cn/'],
+['上海海事大学',	'http://www.shmtu.edu.cn/'],
+['上海海洋大学',	'http://www.shou.edu.cn/'],
+['上海交通大学',	'https://www.sjtu.edu.cn/'],
+['上海开放大学',	'http://www.shtvu.edu.cn/'],
+['上海理工大学',	'http://www.usst.edu.cn/'],
+['上海杉达学院',	'http://www.sandau.edu.cn/'],
+['上海师范大学',	'http://www.shnu.edu.cn/'],
+['上海市教委',	'http://www.shmec.gov.cn/'],
+['上海外国语大学',	'http://www.shisu.edu.cn/'],
+['同济大学',	'https://www.tongji.edu.cn/'],
+['易班教育',	'http://www.yiban.cn/']
+]

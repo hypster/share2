@@ -2,7 +2,7 @@
 <div class='right-column'>
     <h2>视频名称</h2>
     <div class="video-container">
-        <video controls src="https://s3.cn-north-1.amazonaws.com.cn/eac.edu.sh.cn/%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91/%E8%A7%86%E9%A2%91/%E8%B7%A8%E6%A0%A1%E8%AE%A4%E8%AF%81%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E6%8E%A5%E5%85%A5%E6%96%B9%E6%B3%95(%E4%B8%8A%E5%8D%88)-1.mp4"></video>
+        <video controls src="https://s3.cn-north-1.amazonaws.com.cn/eac.edu.sh.cn/%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91/%E8%A7%86%E9%A2%91/%E2%80%9C%E6%95%99%E8%82%B2%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E4%BD%93%E7%B3%BB%E6%A0%87%E5%87%86%E8%A7%84%E8%8C%83%E2%80%9C%E6%8A%80%E6%9C%AF%E7%A0%94%E8%AE%A8%E4%BC%9A.mp4"></video>
       </div>
     <!-- <div class='pub-event'>
       <a class='button'>关键词1</a>
